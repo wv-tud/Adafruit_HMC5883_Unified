@@ -13,6 +13,11 @@
   Written by Kevin Townsend for Adafruit Industries.  
   BSD license, all text above must be included in any redistribution
  ***************************************************************************/
+
+#ifndef _ADAFRUIT_SENSOR_H
+#include "../Adafruit_Sensor/Adafruit_Sensor.h"
+#endif
+
 #ifndef __HMC5883_H__
 #define __HMC5883_H__
 
@@ -21,8 +26,6 @@
 #else
  #include "WProgram.h"
 #endif
-
-#include <Adafruit_Sensor.h>
 
 #ifdef __AVR_ATtiny85__
   #include "TinyWireM.h"
